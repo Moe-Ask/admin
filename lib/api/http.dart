@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-const MainApi = "https://api.moeask.com/v1";
+const MainApi = "https://api.moeask.net/v1";
 
 http.Client _client;
 
