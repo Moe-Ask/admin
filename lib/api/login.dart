@@ -14,7 +14,7 @@ Future<User> login(String username, password, idKey, verifyValue) async {
     "password": password,
     "id_key": idKey,
     "verify_value": verifyValue,
-    "remember": true
+    "remember": "true"
   });
   return User(data["token"])..userId = data["user_id"];
 }
