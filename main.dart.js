@@ -10234,7 +10234,7 @@ while(true)switch(s){case 0:p=$.YN
 if(p==null)p=$.YN=new O.x7(P.bC(t.sZ))
 o=G
 s=3
-return P.a4(p.Qi("GET","https://api.moeask.net/v1"+a,b),$async$wn)
+return P.a4(p.Qi("GET","https://api.moeask.com/v1"+a,b),$async$wn)
 case 3:q=o.a6K(d)
 s=1
 break
@@ -10246,7 +10246,7 @@ while(true)switch(s){case 0:p=$.YN
 if(p==null)p=$.YN=new O.x7(P.bC(t.sZ))
 o=G
 s=3
-return P.a4(p.ln("POST","https://api.moeask.net/v1"+a,null,b,null),$async$a_l)
+return P.a4(p.ln("POST","https://api.moeask.com/v1"+a,null,b,null),$async$a_l)
 case 3:q=o.a6K(d)
 s=1
 break
