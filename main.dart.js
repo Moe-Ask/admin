@@ -13853,7 +13853,7 @@ a_1:function(a,b,c,d){var s=0,r=P.Y(t.v7),q,p,o,n
 var $async$a_1=P.U(function(e,f){if(e===1)return P.V(f,r)
 while(true)switch(s){case 0:o=t.X
 s=3
-return P.a4(G.a_l("/login",P.aA(["username",a,"password",b,"id_key",c,"verify_value",d],o,o)),$async$a_1)
+return P.a4(G.a_l("/login",P.aA(["username",a,"password",b,"id_key",c,"verify_value",d,"remember","true"],o,o)),$async$a_1)
 case 3:n=f
 o=J.ab(n)
 p=o.h(n,"token")
